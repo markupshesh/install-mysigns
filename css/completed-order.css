@@ -1,0 +1,247 @@
+h2.title-header {
+    font-family: 'Roboto';
+    margin: 0px;
+    padding: 0 0 25px 0;
+    font-size: 26px;
+}
+
+.total-order-bx {
+    background: #fff;
+    padding: 30px 30px;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 4px 2px rgb(233 233 233);
+    border-radius: 12px;
+}
+
+.total-order-bx h3 {
+    color: #ccd0d1;
+    font-size: 16px;
+    font-family: roboto;
+    font-weight: 400;
+    fill: #ccd0d1
+}
+
+.total-order-bx h3 svg {
+    margin-right: 16px;
+}
+
+ul.number-txt {
+    display: flex;
+    padding: 0px;
+    margin: 30px 0 0 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul.number-txt li {
+    font-size: 30px;
+    padding: 0px;
+    font-weight: 500;
+    color: #272b34;
+}
+
+a.number-btn {
+    background: #4bbf6c;
+    font-size: 16px;
+    padding: 7px 19px;
+    color: #fff;
+    border-radius: 6px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+a.bg-red {
+    background: #ff2c57 !important;
+}
+
+.completed-map-view {
+    background: #fff;
+    padding: 30px 30px;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 4px 2px rgb(233 233 233);
+    border-radius: 12px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.header-search-bx {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul.header-search-ul {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    width: 75%;
+}
+
+.input-bx {
+    border: 2px solid #325dab;
+    border-radius: 12px;
+    height: 42px;
+    width: 100%;
+    padding: 0 10px;
+}
+
+input.input-bx::placeholder,
+select.input-bx {
+    color: #000;
+    font-weight: 500;
+    font-family: roboto;
+    font-size: 14px;
+}
+
+ul.header-search-ul li {
+    padding: 0 25px 0 0;
+}
+
+ul.header-search-ul li:first-child {
+    width: 24%;
+}
+
+ul.header-search-ul li:nth-child(2) {
+    width: 23%;
+}
+
+ul.header-search-ul li:nth-child(3) {
+    width: 18%;
+}
+
+ul.header-search-ul li:nth-child(4) {
+    width: 16%;
+}
+
+ul.header-search-ul li:nth-child(5) {
+    width: 21%;
+}
+
+ul.switcher-bx {
+    background: #255ec5;
+    height: 22px;
+    width: 53px;
+    border-radius: 24px;
+    padding: 0px;
+    margin: 0 34px 0 0;
+    transition: all 0.6s;
+    display: flex;
+}
+
+.map-view {
+    cursor: pointer;
+    margin: -1px 0 0 3px!important;
+}
+
+.grid-view {
+    float: right;
+    display: none;
+    cursor: pointer;
+    margin: -1px 3px 0 0!important;
+}
+
+.grid-view i {
+    margin: 0 0 0 7px;
+}
+
+span.map-txt {
+    position: absolute;
+    top: 0;
+    left: -42px;
+    color: #255ec5;
+    font-weight: 500;
+}
+
+span.grid-txt {
+    position: absolute;
+    top: 0;
+    right: -40px;
+    color: #939393;
+    font-weight: 500;
+}
+
+ul.switcher-bx li {
+    width: 50%;
+    border: 1px solid transparent;
+    height: 22px;
+    padding: 0px;
+    margin: 0;
+    color: #fff;
+    position: relative;
+}
+
+.map-data,
+.grid-data {
+    margin-top: 40px;
+}
+
+ul.completed-map-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px!important;
+    ;
+}
+
+ul.completed-map-list li {
+    width: 40%!important;
+    margin-bottom: 40px;
+}
+
+a.btn-next {
+    margin: auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 141px;
+    background: #6cbc75;
+    color: #fff;
+    text-align: center;
+    padding: 11px 0;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+a.btn-next:hover {
+    background: #3d8d46;
+    color: #fff;
+}
+
+a.btn-next i {
+    font-size: 23px;
+    position: relative;
+    top: 3px;
+    margin: 0 4px;
+    left: 5px;
+}
+
+a.eye-icon {
+    fill: #999292;
+    padding: 0 6px;
+    text-decoration: none;
+}
+
+table.completed-table tr th {
+    color: #a0a1a0;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+table.completed-table tr td {
+    font-weight: 500;
+    color: #363535;
+}
+
+@media (max-width:1660px) {
+    ul.completed-map-list li {
+        width: 48%!important;
+        margin-bottom: 20px;
+    }
+    .descpt-txt {
+        font-size: 13px;
+    }
+}
